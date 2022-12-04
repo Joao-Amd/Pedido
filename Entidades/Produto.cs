@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Pedido.Entidades
 {
     internal class Produto
     {
+        public string NomeProduto { get; set; }
+        public double PrecoProduto { get; set; }
+
+        public Produto()
+        {
+        }
+        public Produto(string nome, double preco)
+        {
+            NomeProduto = nome;
+            PrecoProduto = preco;
+        }
     }
+
 }

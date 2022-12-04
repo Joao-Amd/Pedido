@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pedido.Entidades.Enum
+﻿namespace Pedido.Entidades.Enum
 {
-    internal class Status
+    enum Status : int
     {
+        PedidoPendente = 0,
+        EmProcessamento = 1,
+        Enviado = 2,
+        Entregue = 3
     }
 }
