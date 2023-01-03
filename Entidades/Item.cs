@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using Pedido.Entidades.Execao;
 namespace Pedido.Entidades
 {
     internal class Item
